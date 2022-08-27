@@ -49,7 +49,19 @@ copyright = "© {year}"
 # vendor script in layouts/blog/single.html.
 [markup]
   [markup.highlight]
-    codeFences = false
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ''
+    hl_inline = false
+    lineAnchors = ''
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    noHl = false
+    style = 'monokai'
+    tabWidth = 4
     
   # Set to false to disallow raw HTML in markdown files
   [markup.goldmark.renderer]
@@ -57,9 +69,9 @@ copyright = "© {year}"
 
 # Controls the navigation
 [[menu.main]]
-  identifier = "about"
-  name = "about"
-  title = "About"
+  identifier = "home"
+  name = "home"
+  title = "Home"
   url = "/"
 
 [[menu.main]]
